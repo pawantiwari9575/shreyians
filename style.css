@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    widows: 100%;
+}
+#bg{
+    width: 100%;
+    height: 100%;
+}
+
+#bg #nav{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(248, 248, 248, 0.007);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 90px;
+    align-items: center;
+    position: fixed;
+    z-index: 90;
+}
+#bg #nav img{
+    width: 150px;
+    height: 48px;
+}
+#bg #nav #menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background-color:white;
+    border-radius: 50%;
+    z-index: 100;
+}
+#bg #nav #menu i{
+    font-weight: 900;
+}
+
+#menu:hover{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 20%;
+    right: 90px;
+    background-color:#478299;
+}
+
+#bg #rbox{
+    height: 100%;
+    width: 35%;
+    margin-left: 65%;
+    background-color: #478299;
+    z-index: 99;
+}
+#rcent{
+    position: absolute;
+    overflow: hidden;
+    top: 20%;
+    right: 15%;
+    width: 45%;
+    height: 60%;
+    background-color: rgb(86, 134, 161);
+}
+#bg #rcent img{
+    margin-top: -70px;
+    width: 100%;
+    height: 140%;
+    justify-content: center;
+    align-items: center;
+}
+#lcent{
+    position: absolute;
+    top: 30%;
+    left: 90px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#lcent h4{
+    color: rgb(143, 129, 129);
+    /* line-height: 19px; */
+}
+#lcent h1{
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 900;
+    color: #464646;
+}
+#lcent #spn{
+    color: #49a1d4;
+}
+#lcent p{
+    font-size: 16px;
+    margin-top: 26px;
+    font-weight: 600;
+}
+
+/* *********************Center Start*************************** */
+
+#bch{
+    height: 100%;
+    width: 100%;
+    /* background-color: teal; */
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#bch #bchl{
+    width: 40%;
+    height: 100%;
+}
+#bch #bchl img{
+    width: 80%;
+    height: 70%;
+    margin-left: 15%;
+    margin-top: 100px;
+}
+#bch #bchr{
+    /* background-color: rgb(112, 112, 136); */
+    width: 60%;
+    margin-top: 220px;
+}
+#bch #bchr h2{
+    font-size: 35px;
+    color: #494343;
+    font-weight: 600;
+    line-height: 34px;
+}
+#bch #bchr p{
+    margin-right: 18%;
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 15px;
+    color: rgb(122, 115, 115);
+}
+#bch #bchr #btn{
+    margin-top: 40px;
+    height: 40px;
+    width: 240px;
+    border-radius:100px;
+    text-decoration: none;
+    background-color: #1ecf36;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+/* ******************** Course****************** */
+
+#course{
+    /* height: 100%; */
+    width: 100%;
+    /* background-color: #f6fbff; */
+    padding: 1% 8%;
+}
+#course #cont{
+    width: 100%;
+    height: 100%;
+    /* background-color: #f6fbff; */
+}
+#course #cont h1{
+color: #54868f;
+font-size: 40px;
+font-weight: 600;
+}
+#course #cont p{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #797979;
+    margin-left: 3px;
+    line-height: 20px;
+    font-weight: 600;
+    word-spacing: 2px;
+}
+#course #cont #yhad{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#course #cont #yhad i{
+    margin-top: 40px;
+    font-size: 40px;
+    margin-right: 50px;
+    color: #c52525;
+}
+ #course #cont #yhad h3{
+     margin-top: 30px;
+     font-size: 25px;
+     color: #72c9d8;
+     font-weight: 800;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+.ember{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 25px;
+    color: rgba(24, 22, 22, 0.623);
+    /* font-weight: 600; */
+}
+  .card{
+     display: flex;
+     justify-content: space-evenly;
+     margin-top: 10px;
+     height: 70%;
+     width: 100%;
+     /* background-color: darkolivegreen; */
+    }
+  .card1{
+    background-color: #f6fbff;
+        padding: 20px;
+        width: 350px;
+        /* background-color: #342131; */
+        height: 330px;
+        box-shadow: 12px 11px 20px rgba(124, 124, 124, 0.103);
+    }
+    .card1 iframe{
+        width: 300px;
+        height: 180px;
+    }
+
+/* *********************REG*********************** */
+
+#reg{
+    height: 120%;
+    width: 100%;
+    background-color:#72c9d8;
+}
+.continer{
+    margin: 0% 10%;
+    /* background-color: blue; */
+    height: 100%;
+    padding-top: 5%;
+}
+#reg h1{
+    font-size: 100px;
+    color: white;
+}
+#reg p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 25px;
+    font-weight: 900;
+    color: #fff;
+}
+#bo{
+    color: #02758a;
+}
+#reg h4{
+    margin-top: 40px;
+    color: rgb(0, 95, 112);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#reg form {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#reg form input, #regis {
+    display: block;
+    width: 40%;
+    margin-bottom: 10px;
+    padding: 14px 20px;
+    border: 2px solid rgb(128, 191, 202);
+    border-radius: 4px;
+    background-color: rgb(222, 248, 253);
+    color: rgb(0, 95, 112);
+}
+#courses input {
+    background-color: #5da7b4;
+    color: #fff;
+    border: none;
+    padding: 18px 0;
+}
+
+/* **********************Footer************* */
+
+#footer{
+    height: 40%;
+    width: 100%;
+    background-color: #3d3d3d;
+    display: flex;
+}
+#fleft{
+    position: relative;
+    width: 45%;
+    /* background-color: teal; */
+    ;
+}
+#fleft h1{
+    padding-left:17%;
+    margin-top: 15%;
+    font-size: 30px;
+    color: white;
+}
+#fleft p{
+    /* background-color: tomato; */
+    padding-left: 17%;
+    margin-top: 2%;
+    font-size: 20px;
+    color: rgb(228, 210, 210);
+}
+#fright{
+    width: 55%;
+    /* background-color: violet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rt{
+    height: 50px;
+    width: 150px;
+    /* background-color: blue; */
+}
+#rc{
+    height: 50px;
+    width: 150px;
+    /* background-color: blue; */
+}
+#csm{
+    height: 50px;
+    width: 150px;
+    /* background-color: blue; */
+    width: max-content;
+}
+#oc{
+    height: 50px;
+    width: 150px;
+    /* background-color: blue; */
+    margin-right: 80px;
+}
+.fot{
+    margin-right: 40px;
+    background-color: #4e4e4e;
+   padding-top: 2%;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    border-radius: 100px;
+}
